@@ -42,7 +42,7 @@ There are two endpoints to get the desired result.
   This table contains the details of the user. There are 4 columns in this table
 
    - **id** : Contains the index of the user data row.
-   - **user_id** : Contains the unique userId of the user. This is also used as ***Foreign Key*** in the ***Activity Model*** table.
+   - **user_id** : Contains the unique userId of the user. This is also used as ***Foreign Key*** in the ***ActivityModel*** table.
    - **real_name** : It contains the name of the user.
    - **tz** : Contains the timezone detail of the user.
 
@@ -53,7 +53,7 @@ There are two endpoints to get the desired result.
    - **id** : Contains the index of the user activity data row.
    - **user_id** : Foreign key to map activity data to the user it belongs to from the ***User*** table.
    - **start_time** : Start time of the activity.
-   -**end_time** : End time of the activity.
+   - **end_time** : End time of the activity.
 
 
 
