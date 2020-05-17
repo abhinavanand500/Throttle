@@ -3,8 +3,8 @@ from datetime import datetime
 # Create your models here.
 
 class User(models.Model):
-    User_id = models.AutoField
-    id1 = models.CharField(max_length=20, primary_key=True)
+    id = models.AutoField
+    user_id = models.CharField(max_length=20, primary_key=True)
     real_name = models.CharField(max_length=20)
     tz = models.CharField(max_length=30)
 
@@ -14,8 +14,8 @@ class User(models.Model):
 
 
 class ActivityPeriod(models.Model):
-    User_id = models.AutoField
-    id1 = models.CharField(max_length=20)
+    id = models.AutoField
+    user_id = models.CharField(max_length=20)
     start_time = models.CharField(max_length=40)
     end_time = models.CharField(max_length=40)
 
