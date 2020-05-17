@@ -37,7 +37,7 @@ There are two endpoints to get the desired result.
 
 ## Tables
 
-+ **Users**
++ **User**
 
   This table contains the details of the user. There are 4 columns in this table
 
@@ -46,7 +46,7 @@ There are two endpoints to get the desired result.
    - **real_name** : It contains the name of the user.
    - **tz** : Contains the timezone detail of the user.
 
-+ **ActivityModel** 
++ **ActivityPeriod** 
 
   This table contains the activity data of the users. There are 4 columns in this table
 
