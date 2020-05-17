@@ -64,7 +64,8 @@ There are two endpoints to get the desired result.
 
 
 
-   ***Note : All Data being used is dummy data.***
+   ***Note : All Data being used is dummy data. Also database mapping is not done as it was not needed in Assesment***
+               
 
 
    **Thank You :)**
