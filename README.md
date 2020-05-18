@@ -18,7 +18,7 @@ A simple python based server to display user activity data.
    ```bash
       python manage.py runserver 
     ```
-   or, the below command if you use [python3](https://www.python.org/downloads/)
+   or, the below command if your default python version is python2 use [python3](https://www.python.org/downloads/)
 
     ```bash
       python3 manage.py runserver 
